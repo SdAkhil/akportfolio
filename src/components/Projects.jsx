@@ -16,10 +16,10 @@ import {
   SiVite,
 } from "react-icons/si";
 import {
-  SiPycharm,
-  SiPython,
-  SiR,
-  SiRstudio,
+
+
+
+
   SiCsharp,
   SiUnity,
   SiAdobephotoshop,
