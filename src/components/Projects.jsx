@@ -10,6 +10,17 @@ import {
   SiVite,
 } from "react-icons/si";
 import {
+  SiPycharm,
+  SiPython,
+  SiR,
+  SiRstudio,
+  SiCsharp,
+  SiUnity,
+  SiAdobephotoshop,
+  SiTensorflow,
+  SiNumpy
+} from "react-icons/si";
+import {
   uh,
 } from "../constants/Constant";
 
@@ -33,57 +44,57 @@ const Projects = () => {
         >
 
           <Project_prop
-            title="MemoDairy – Capturing and Reliving Life’s Moments (iOS Application)"
-            para="Developed an iOS application, MemoDairy, leveraging Swift and Xcode, to enable users to capture and relive their life's moments seamlessly."
+            title="Anaylsis of Amazon Co-Purchasing Data"
+            para="Implemented ANN to predict Amazon co-purchase relations, the project covered data preprocessing, feature extraction, model training, and evaluation, classifying items into immediate co-purchase, possible but not immediate co-purchase, and non-co-purchase categories."
             img={uh}
             link=""
             github_link=""
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="Python" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
+                  <SiPython className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
+              <Tooltip title="Pycharm" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                  <SiPycharm className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             vite={
-              <Tooltip title="Vite" arrow>
+              <Tooltip title="Tensorflow" arrow>
                 <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
+                  <SiTensorflow className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
           />
           <Project_prop
-            title="Automatic Random Question Paper Generation System"
-            para="Developed an innovative Automatic Question Paper Generator application utilizing natural language processing techniques, resulting in a 50% reduction in time spent on question paper creation compared to manual methods."
+            title="Comprehensive Game Development Project"
+            para="Developed a game by creating art assets, including main and enemy characters, using Clip Studio Paint. Integrated assets and backgrounds into Unity, programmed player movements and animations using C#."
             img={uh}
             link=""
             github_link=""
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="C#" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
+                  <SiCsharp className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
+              <Tooltip title="Unity" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                  <SiUnity className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             vite={
-              <Tooltip title="Vite" arrow>
+              <Tooltip title="Adobe Photoshop" arrow>
                 <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
+                  <SiAdobephotoshop className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -95,23 +106,16 @@ const Projects = () => {
             link=""
             github_link=""
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="RStudio" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
+                  <SiRstudio className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
+              <Tooltip title="R" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            vite={
-              <Tooltip title="Vite" arrow>
-                <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
+                  <SiR className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -123,23 +127,16 @@ const Projects = () => {
             link=""
             github_link=""
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="Python" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
+                  <SiPython className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
+              <Tooltip title="NumPy" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            vite={
-              <Tooltip title="Vite" arrow>
-                <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
+                  <SiNumpy className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }

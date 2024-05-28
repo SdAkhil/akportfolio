@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Edu_prop from "./Edu_prop";
 import {
-  uh, pvpsit
+  uh, kllogo
 } from "../constants/Constant";
 
 const Education = () => {
@@ -38,11 +38,11 @@ const Education = () => {
             </Edu_prop>
 
             <Edu_prop
-              image={pvpsit}
-              title="PVP Siddhartha Institute of Technology"
+              image={kllogo}
+              title="KL Education Foundation"
               degree="Bachelors"
               period="June 2017 - April 2021"
-              major="Information Technology">
+              major="Computer Science & Engineering">
 
             </Edu_prop>
 
