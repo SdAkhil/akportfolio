@@ -5,11 +5,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import {
+  SiDjango,
+  SiNpm,
+  SiPycharm,
+  SiPython,
+  SiR,
   SiReact,
+  SiRstudio,
   SiTailwindcss,
   SiVite,
 } from "react-icons/si";
 import {
+<<<<<<< HEAD
   SiPycharm,
   SiPython,
   SiR,
@@ -22,6 +29,9 @@ import {
 } from "react-icons/si";
 import {
   uh,
+=======
+  uh, Memo, AQP
+>>>>>>> f0ea6b0927a42735a5ba2d93eb87a5c8e06a9f56
 } from "../constants/Constant";
 
 const Projects = () => {
@@ -44,9 +54,15 @@ const Projects = () => {
         >
 
           <Project_prop
+<<<<<<< HEAD
             title="Anaylsis of Amazon Co-Purchasing Data"
             para="Implemented ANN to predict Amazon co-purchase relations, the project covered data preprocessing, feature extraction, model training, and evaluation, classifying items into immediate co-purchase, possible but not immediate co-purchase, and non-co-purchase categories."
             img={uh}
+=======
+            title="MemoDairy – Capturing and Reliving Life’s Moments (iOS Application)"
+            para="Developed an iOS application, MemoDairy, leveraging Swift and Xcode, to enable users to capture and relive their life's moments seamlessly."
+            img={Memo}
+>>>>>>> f0ea6b0927a42735a5ba2d93eb87a5c8e06a9f56
             link=""
             github_link=""
             react={
@@ -72,6 +88,7 @@ const Projects = () => {
             }
           />
           <Project_prop
+<<<<<<< HEAD
             title="Comprehensive Game Development Project"
             para="Developed a game by creating art assets, including main and enemy characters, using Clip Studio Paint. Integrated assets and backgrounds into Unity, programmed player movements and animations using C#."
             img={uh}
@@ -81,20 +98,43 @@ const Projects = () => {
               <Tooltip title="C#" arrow>
                 <IconButton>
                   <SiCsharp className="dark:text-slate-200 text-black" />
+=======
+            title="Automatic Random Question Paper Generation System"
+            para="Developed an innovative Automatic Question Paper Generator application utilizing natural language processing techniques, resulting in a 50% reduction in time spent on question paper creation compared to manual methods."
+            img={AQP}
+            link=""
+            github_link=""
+            react={
+              <Tooltip title="Python" arrow>
+                <IconButton>
+                  <SiPython className="dark:text-slate-200 text-black" />
+>>>>>>> f0ea6b0927a42735a5ba2d93eb87a5c8e06a9f56
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
+<<<<<<< HEAD
               <Tooltip title="Unity" arrow>
                 <IconButton>
                   <SiUnity className="dark:text-slate-200 text-black" />
+=======
+              <Tooltip title="Pycharm" arrow>
+                <IconButton>
+                  <SiPycharm className="dark:text-slate-200 text-black" />
+>>>>>>> f0ea6b0927a42735a5ba2d93eb87a5c8e06a9f56
                 </IconButton>
               </Tooltip>
             }
             vite={
+<<<<<<< HEAD
               <Tooltip title="Adobe Photoshop" arrow>
                 <IconButton>
                   <SiAdobephotoshop className="dark:text-slate-200 text-black" />
+=======
+              <Tooltip title="Django" arrow>
+                <IconButton>
+                  <SiDjango className="dark:text-slate-200 text-black" />
+>>>>>>> f0ea6b0927a42735a5ba2d93eb87a5c8e06a9f56
                 </IconButton>
               </Tooltip>
             }
@@ -134,9 +174,15 @@ const Projects = () => {
               </Tooltip>
             }
             tailwindcss={
+<<<<<<< HEAD
               <Tooltip title="NumPy" arrow>
                 <IconButton>
                   <SiNumpy className="dark:text-slate-200 text-black" />
+=======
+              <Tooltip title="Pycharm" arrow>
+                <IconButton>
+                  <SiPycharm className="dark:text-slate-200 text-black" />
+>>>>>>> f0ea6b0927a42735a5ba2d93eb87a5c8e06a9f56
                 </IconButton>
               </Tooltip>
             }

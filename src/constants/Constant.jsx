@@ -13,6 +13,8 @@ import kllogo from "../assets/kllogo.png";
 import tcs from "../assets/TCS.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import Vite from "../assets/Vite.png";
+import Memo from "../assets/Memo.png";
+import AQP from "../assets/AQP.png";
 
 export {
   C,
@@ -29,5 +31,7 @@ export {
   kllogo,
   tcs,
   TailwindCSS,
-  Vite
+  Vite,
+  Memo,
+  AQP
 };
