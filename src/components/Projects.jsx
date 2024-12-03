@@ -5,27 +5,19 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import {
-  SiDjango,
-  SiNpm,
-  SiPycharm,
   SiPython,
-  SiR,
   SiReact,
-  SiRstudio,
-  SiTailwindcss,
-  SiVite,
-} from "react-icons/si";
-import {
-
-
-
-
+  SiTableau,
+  SiSqlite,
   SiCsharp,
   SiUnity,
   SiAdobephotoshop,
-  SiTensorflow,
-  SiNumpy
 } from "react-icons/si";
+import { 
+  VscAzureDevops,
+  VscAzure,
+  VscDatabase,
+ } from "react-icons/vsc";
 import {
   uh,
 } from "../constants/Constant";
@@ -50,29 +42,29 @@ const Projects = () => {
         >
 
           <Project_prop
-            title="Anaylsis of Amazon Co-Purchasing Data"
-            para="Implemented ANN to predict Amazon co-purchase relations, the project covered data preprocessing, feature extraction, model training, and evaluation, classifying items into immediate co-purchase, possible but not immediate co-purchase, and non-co-purchase categories."
+            title="Eventify – Dynamic Event Management Web Application"
+            para="Built a full-stack event management application using React.js for the front-end and ASP.NET Core for back-end logic, allowing users to create, manage, and RSVP for events seamlessly."
             img={uh}
             link=""
             github_link=""
             react={
-              <Tooltip title="Python" arrow>
+              <Tooltip title="Azure DevOps" arrow>
                 <IconButton>
-                  <SiPython className="dark:text-slate-200 text-black" />
+                  <VscAzureDevops className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="Pycharm" arrow>
+              <Tooltip title="React" arrow>
                 <IconButton>
-                  <SiPycharm className="dark:text-slate-200 text-black" />
+                  <SiReact className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             vite={
-              <Tooltip title="Tensorflow" arrow>
+              <Tooltip title="Database" arrow>
                 <IconButton>
-                  <SiTensorflow className="dark:text-slate-200 text-black" />
+                  <VscDatabase className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -106,29 +98,29 @@ const Projects = () => {
             }
           />
           <Project_prop
-            title="Comprehensive Analysis of Naturalistic Driving Data"
-            para="Utilized advanced exploratory data analysis and statistical modeling techniques in R to scrutinize the physiological data, resulting in deep insights into driving behaviors and responses."
+            title="Smart Campus – University Data Visualization and Analytics Platform"
+            para="Developed a comprehensive platform to analyze and visualize university data such as student enrollment, faculty performance, and course feedback using Power BI and Tableau."
             img={uh}
             link=""
             github_link=""
             react={
-              <Tooltip title="RStudio" arrow>
+              <Tooltip title="Tableau" arrow>
                 <IconButton>
-                  <SiRstudio className="dark:text-slate-200 text-black" />
+                  <SiTableau className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="R" arrow>
+              <Tooltip title="Azure" arrow>
                 <IconButton>
-                  <SiR className="dark:text-slate-200 text-black" />
+                  <VscAzure className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
           />
           <Project_prop
-            title="Interpolation to Speed-up NUFFT"
-            para="Implemented Non-Uniform Fast Fourier Transforms (NUFFTs) to reconstruct irregularly sampled frequency domain data into the physical domain, resulting in 40% reduction."
+            title="Sport Stats – AI-Powered Sports Analytics Platform"
+            para="Engineered a platform to analyze player and team performance by processing match data and video feeds using Python Flask and advanced machine learning models."
             img={uh}
             link=""
             github_link=""
@@ -140,9 +132,9 @@ const Projects = () => {
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="NumPy" arrow>
+              <Tooltip title="SQLite" arrow>
                 <IconButton>
-                  <SiNumpy className="dark:text-slate-200 text-black" />
+                  <SiSqlite className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }

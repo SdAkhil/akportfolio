@@ -2,12 +2,12 @@ import {
   HTML,
   CSS,
   Github,
-  Git,
+  DotNet,
   react,
   Python,
   Javascript,
-  CPP,
-  C,
+  Azure,
+  AWSCloud,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -33,11 +33,11 @@ const Skills = () => {
           <Image img={CSS}></Image>
           <Image img={Javascript}></Image>
           <Image img={react}></Image>
-          <Image img={CPP}></Image>
-          <Image img={C}></Image>
           <Image img={Python}></Image>
-          <Image img={Git}></Image>
           <Image img={Github}></Image>
+          <Image img={DotNet}></Image>
+          <Image img={Azure}></Image>
+         <Image img={AWSCloud}></Image>
         </div>
       </section>
     </>

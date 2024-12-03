@@ -34,15 +34,15 @@ const Experience = () => {
               img={uh}
               title="University of Houston"
               subtitle="Instructional Assistant (Developer)"
-              date="May 2023 - May 2024"
+              date="June 2023 - May 2024"
               para={["- Utilized React for Front-end development and proficiently maintained and optimized the UH Law Web Page, ensuring its seamless functionality and responsiveness resulting in a 20% increase in page loading speed.", " - Used cloud integration solutions to efficiently store and manage classroom recordings, enhancing accessibility and scalability for the educational content, resulting in a 5x increase in overall storage capacity."]}
             />
             <Exp_prop
               img={tcs}
               title="Tata Consultancy Services"
               subtitle="Assistant Systems Engineer"
-              date="May 2021 - August 2022"
-              para={["- Created and launched an interactive multi-page web application named WUPOS, customized to client requirements using React for Front-end, Java for back-end integration, and SQL for data administration.", " - Competently designed and maintained intricate SQL database schemas, adeptly crafting, and executing complex queries, this helped in reducing the average response time by 60% informing database performance."]}
+              date="May 2021 - June 2022"
+              para={["- Created and launched an interactive multi-page web application named WUPOS, customized to client requirements using React, C# for Front-end, ASP .NET for back-end integration, and SQL for data administration.", " - Competently designed and maintained intricate SQL database schemas, adeptly crafting, and executing complex queries, this helped in reducing the average response time by 60% informing database performance."]}
             />
 
           </div>
